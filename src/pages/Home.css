@@ -1,0 +1,82 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .add-input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .add-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+    width: 400px;
+  }
+  
+  .task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-name {
+    margin-right: 10px;
+  }
+  
+  .edit-button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-button {
+    padding: 5px 10px;
+    background-color: #fbc02d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }  
